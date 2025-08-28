@@ -4,4 +4,7 @@ describe("Tennis Scorer",()=>{
     it("El partido inicia  0-0",()=>{
         expect(showScore()).toEqual("Love-Love");
     });
+    it("El jugador 1 anota el primer punto",()=>{
+        expect(showScore(1,0)).toEqual("15-Love");
+    });
 });
