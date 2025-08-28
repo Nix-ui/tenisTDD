@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-28T13:28:24.000Z",
+      "message": "feat: el partido inicia con 0-0",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 24,
+      "deletions": 0,
+      "date": "2025-08-28"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
