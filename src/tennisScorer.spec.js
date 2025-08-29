@@ -94,5 +94,9 @@ describe("Tennis Scorer",()=>{
         it("El jugador 1 y el jugador 2  esten en deuce",()=>{
             expect(tenisScorer.showScore()).toEqual("Deuce");
         })
+        it("El jugador 1 anota el punto de ventaja",()=>{
+            tenisScorer.player1Scores();
+            expect(tenisScorer.showScore()).toEqual("Advantage for Player 1");
+        })
     });
 });

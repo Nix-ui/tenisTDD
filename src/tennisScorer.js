@@ -38,11 +38,17 @@ class TenisScorer {
     player2Scores(){
         this.jugador2.anotarPunto();
     }
+    checkAvarage(){
+        if(this.jugador1.getPuntos() > 3 && this.jugador2.getPuntos() > 2){
+            this.jugador1.toggleAvarage();
+            return "Advantage for Player 1";
+        }
+    }
     showScore(){ 
         const puntos1 = this.asociacionPuntos[this.jugador1.getPuntos()];
         const puntos2 = this.asociacionPuntos[this.jugador2.getPuntos()];
-        let resultado = `${puntos1}-${puntos2}`;
-        return  resultado =="40-40" ? "Deuce" : `${puntos1}-${puntos2}`;
+        let resultado = this.checkAvarage() ? this.checkAvarage() : `${puntos1}-${puntos2}`;
+        return  resultado =="40-40" ? "Deuce" : resultado;
     }
     resetScore(){
         this.jugador1 = new Jugador();
