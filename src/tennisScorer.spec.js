@@ -59,4 +59,13 @@ describe("Tennis Scorer",()=>{
             expect(tenisScorer.showScore()).toEqual("40-30");
         })
     });
+    describe("El jugador 2 va ganando al jugador 1, y el jugador 1 tiene 1 punto",()=>{
+        let  tenisScorer = new TenisScorer();
+        tenisScorer.player2Scores();
+        tenisScorer.player1Scores();
+        it("El jugador 2 anota el segundo punto y el jugador 1 tiene 1 punto",()=>{
+            tenisScorer.player2Scores();
+            expect(tenisScorer.showScore()).toEqual("15-30");
+        })
+    });
 });
