@@ -41,7 +41,8 @@ class TenisScorer {
     showScore(){ 
         const puntos1 = this.asociacionPuntos[this.jugador1.getPuntos()];
         const puntos2 = this.asociacionPuntos[this.jugador2.getPuntos()];
-        return  `${puntos1}-${puntos2}`;
+        let resultado = `${puntos1}-${puntos2}`;
+        return  resultado =="40-40" ? "Deuce" : `${puntos1}-${puntos2}`;
     }
     resetScore(){
         this.jugador1 = new Jugador();

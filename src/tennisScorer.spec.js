@@ -83,4 +83,16 @@ describe("Tennis Scorer",()=>{
             expect(tenisScorer.showScore()).toEqual("30-40");
         })
     });
+    describe("Ambos jugadores tienen 3 puntos (Deuce)",()=>{
+        let  tenisScorer = new TenisScorer();
+        tenisScorer.player1Scores();
+        tenisScorer.player1Scores();
+        tenisScorer.player1Scores();
+        tenisScorer.player2Scores();
+        tenisScorer.player2Scores();
+        tenisScorer.player2Scores();
+        it("El jugador 1 y el jugador 2  esten en deuce",()=>{
+            expect(tenisScorer.showScore()).toEqual("Deuce");
+        })
+    });
 });
