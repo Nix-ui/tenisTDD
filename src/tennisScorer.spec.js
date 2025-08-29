@@ -67,5 +67,9 @@ describe("Tennis Scorer",()=>{
             tenisScorer.player2Scores();
             expect(tenisScorer.showScore()).toEqual("15-30");
         })
+        it("El jugador 2 anota el tercer punto y el jugador 1 tiene 1 punto",()=>{
+            tenisScorer.player2Scores();
+            expect(tenisScorer.showScore()).toEqual("15-40");
+        })
     });
 });
