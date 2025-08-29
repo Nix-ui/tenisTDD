@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b75eff3f6e7dfad145de856c826dab7bfdb9b94f",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-29T15:15:07.000Z",
       "message": "feat:  Los jugadores estan en deuce y el jugador 2 gana ventaja",
-      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/b75eff3f6e7dfad145de856c826dab7bfdb9b94f"
     },
     "stats": {
       "total": 8,
@@ -376,6 +376,25 @@
     },
     "coverage": 83.33,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-29T15:21:14.000Z",
+      "message": "feat: Jugador 2 gana el partido",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2025-08-29"
+    },
+    "coverage": 82.86,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

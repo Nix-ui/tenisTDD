@@ -60,7 +60,15 @@ class TenisScorer {
         const puntos1 = this.asociacionPuntos[this.jugador1.getPuntos()];
         const puntos2 = this.asociacionPuntos[this.jugador2.getPuntos()];
         let resultado = this.checkAvarage() ? this.checkAvarage() : `${puntos1}-${puntos2}`;
-        return  this.checkDeuce() ? this.checkDeuce() : resultado;
+        return  this.checkWinner() ? this.checkWinner() : resultado;
+    }
+    checkWinner(){
+        if(this.jugador1.getPuntos() >= this.jugador2.getPuntos()+2 && this.jugador1.getPuntos() >=4){
+            return "Game for Player 1";
+        }else if(this.jugador2.getPuntos() >= this.jugador1.getPuntos()+2 && this.jugador2.getPuntos() >=4){
+            return "Game for Player 2";
+        }
+        return this.checkDeuce();
     }
     resetScore(){
         this.jugador1 = new Jugador();
