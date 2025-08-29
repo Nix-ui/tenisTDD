@@ -114,10 +114,29 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "65db9a722b0c55a2b1a5f608c9c3bfd1302fb7de",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-29T14:21:56.000Z",
+      "message": "feat: el jugador 2 anota 2 punto",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/65db9a722b0c55a2b1a5f608c9c3bfd1302fb7de"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2025-08-29"
+    },
+    "coverage": 86.67,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-29T14:22:26.000Z",
       "message": "feat: el jugador 2 anota 2 punto",
       "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
     },
@@ -128,7 +147,7 @@
       "date": "2025-08-29"
     },
     "coverage": 86.67,
-    "test_count": 7,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
