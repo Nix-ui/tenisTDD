@@ -43,6 +43,10 @@ class TenisScorer {
         const puntos2 = this.asociacionPuntos[this.jugador2.getPuntos()];
         return  `${puntos1}-${puntos2}`;
     }
+    resetScore(){
+        this.jugador1 = new Jugador();
+        this.jugador2 = new Jugador();
+    }
 }
 
 
