@@ -35,7 +35,7 @@ describe("Tennis Scorer",()=>{
             expect(tenisScorer.showScore()).toEqual("Love-40");
         });
     });
-    describe("Anotacion de ambos jugadores",()=>{
+    describe("El jugador 1 va ganando al jugador 2, y el jugador 2 tiene 1 punto",()=>{
         let  tenisScorer = new TenisScorer();
         it("El jugador 1 anota el primer punto y el jugador 2 anota el segundo punto",()=>{
             tenisScorer.player1Scores();
@@ -45,6 +45,10 @@ describe("Tennis Scorer",()=>{
         it("El jugador 1 anota el segundo punto y el jugador 2 tiene 1 punto",()=>{
             tenisScorer.player1Scores();
             expect(tenisScorer.showScore()).toEqual("30-15");
+        })
+        it("El jugador 1 anota el tercer punto y el jugador 2 tiene 1 punto",()=>{
+            tenisScorer.player1Scores();
+            expect(tenisScorer.showScore()).toEqual("40-15");
         })
     });
 });
