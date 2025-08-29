@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "60c6c2b8764bfa72f71f986a8738ecbcfe833cec",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-29T14:37:03.000Z",
       "message": "refactor: Mejores descripciones y logicas en los test",
-      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/60c6c2b8764bfa72f71f986a8738ecbcfe833cec"
     },
     "stats": {
       "total": 11,
@@ -224,6 +224,25 @@
     },
     "coverage": 76.47,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-29T14:39:01.000Z",
+      "message": "feat: El jugador 1 va ganando y el jugador 2 tiene 2 puntos",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-08-29"
+    },
+    "coverage": 76.47,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
