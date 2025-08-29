@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "12844511e7083bfee6c2283c097d9781bf2a8f8c",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-29T14:14:51.000Z",
       "message": "refactor: Toda la logica del partido y del jugador implementada en clases y con el uso de metodos",
-      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/12844511e7083bfee6c2283c097d9781bf2a8f8c"
     },
     "stats": {
       "total": 72,
@@ -91,6 +91,25 @@
     },
     "coverage": 80,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-29T14:21:14.000Z",
+      "message": "feat: el jugador 2 anota 1 punto",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 32,
+      "additions": 18,
+      "deletions": 14,
+      "date": "2025-08-29"
+    },
+    "coverage": 86.67,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
