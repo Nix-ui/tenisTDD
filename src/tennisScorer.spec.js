@@ -35,4 +35,13 @@ describe("Tennis Scorer",()=>{
             expect(tenisScorer.showScore()).toEqual("Love-40");
         });
     });
+    describe("Anotacion de ambos jugadores",()=>{
+        let  tenisScorer = new TenisScorer();
+        it("El jugador 1 anota el primer punto y el jugador 2 anota el segundo punto",()=>{
+            tenisScorer.player1Scores();
+            tenisScorer.player2Scores();
+            expect(tenisScorer.showScore()).toEqual("15-15");
+        });
+        
+    });
 });
