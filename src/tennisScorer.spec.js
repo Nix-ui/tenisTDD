@@ -110,5 +110,12 @@ describe("Tennis Scorer",()=>{
             tenisScorer.player2Scores();
             expect(tenisScorer.showScore()).toEqual("Game for Player 2");
         })
+        it("El jugador 1 anota el punto final",()=>{
+            tenisScorer.player1Scores();
+            tenisScorer.player1Scores();
+            tenisScorer.player1Scores();
+            tenisScorer.player1Scores();
+            expect(tenisScorer.showScore()).toEqual("Game for Player 1");
+        })
     });
 });

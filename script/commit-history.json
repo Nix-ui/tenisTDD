@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "44ffb92041860a5e04556b9e2ff0d5ac62678e94",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-29T15:21:14.000Z",
       "message": "feat: Jugador 2 gana el partido",
-      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/44ffb92041860a5e04556b9e2ff0d5ac62678e94"
     },
     "stats": {
       "total": 14,
@@ -395,6 +395,25 @@
     },
     "coverage": 82.86,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-29T15:24:41.000Z",
+      "message": "feat: Jugador 1 gana el partido",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-08-29"
+    },
+    "coverage": 85.71,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
