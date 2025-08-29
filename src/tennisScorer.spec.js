@@ -42,6 +42,9 @@ describe("Tennis Scorer",()=>{
             tenisScorer.player2Scores();
             expect(tenisScorer.showScore()).toEqual("15-15");
         });
-        
+        it("El jugador 1 anota el segundo punto y el jugador 2 tiene 1 punto",()=>{
+            tenisScorer.player1Scores();
+            expect(tenisScorer.showScore()).toEqual("30-15");
+        })
     });
 });
