@@ -10,4 +10,7 @@ describe("Tennis Scorer",()=>{
     it("El jugador 1 anota el segundo punto",()=>{
         expect(showScore(2,0)).toEqual("30-Love");
     });
+    it("El jugador 1 anota el tercer punto",()=>{
+        expect(showScore(3,0)).toEqual("40-Love");
+    });
 });
