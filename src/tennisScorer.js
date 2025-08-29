@@ -48,10 +48,10 @@ class TenisScorer {
         }
     }
     checkAvarage(){
-        if(this.jugador1.getPuntos() > 3 && this.jugador2.getPuntos() > 2){
+        if(this.jugador1.getPuntos() >= this.jugador2.getPuntos()+1 && this.jugador1.getPuntos() >=4){
             this.jugador1.toggleAvarage();
             return "Advantage for Player 1";
-        }else if(this.jugador2.getPuntos() > 3 && this.jugador1.getPuntos() > 2){
+        }else if(this.jugador2.getPuntos() >= this.jugador1.getPuntos()+1 && this.jugador2.getPuntos() >=4){
             this.jugador2.toggleAvarage();
             return "Advantage for Player 2";
         }

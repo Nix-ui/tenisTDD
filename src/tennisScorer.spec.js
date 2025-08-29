@@ -102,5 +102,9 @@ describe("Tennis Scorer",()=>{
             tenisScorer.player2Scores();
             expect(tenisScorer.showScore()).toEqual("Deuce");
         })
+        it("El jugador 2 anota el punto de ventaja",()=>{
+            tenisScorer.player2Scores();
+            expect(tenisScorer.showScore()).toEqual("Advantage for Player 2");
+        })
     });
 });
