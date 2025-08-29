@@ -26,5 +26,9 @@ describe("Tennis Scorer",()=>{
             tenisScorer.player2Scores();
             expect(tenisScorer.showScore()).toEqual("Love-15");
         });
+        it("El jugador 2 anota el segundo punto",()=>{
+            tenisScorer.player2Scores();
+            expect(tenisScorer.showScore()).toEqual("Love-30");
+        });
     });
 });
