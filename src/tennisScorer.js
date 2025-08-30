@@ -45,6 +45,8 @@ class TenisScorer {
             return "Deuce";
         }else if(this.jugador1.getPuntos() == this.jugador2.getPuntos() && this.jugador1.getPuntos() >= 3){
             return "Deuce";
+        }else{
+            return this.calculateScore();
         }
     }
     checkAvarage(){
@@ -54,13 +56,17 @@ class TenisScorer {
         }else if(this.jugador2.getPuntos() >= this.jugador1.getPuntos()+1 && this.jugador2.getPuntos() >=4){
             this.jugador2.toggleAvarage();
             return "Advantage for Player 2";
+        }else{
+            return this.checkDeuce();
         }
     }
-    showScore(){ 
+    calculateScore(){
         const puntos1 = this.asociacionPuntos[this.jugador1.getPuntos()];
         const puntos2 = this.asociacionPuntos[this.jugador2.getPuntos()];
-        let resultado = this.checkAvarage() ? this.checkAvarage() : `${puntos1}-${puntos2}`;
-        return  this.checkWinner() ? this.checkWinner() : resultado;
+        return `${puntos1}-${puntos2}`;
+    }
+    showScore(){ 
+        return  this.checkWinner();
     }
     checkWinner(){
         if(this.jugador1.getPuntos() >= this.jugador2.getPuntos()+2 && this.jugador1.getPuntos() >=4){
@@ -68,7 +74,7 @@ class TenisScorer {
         }else if(this.jugador2.getPuntos() >= this.jugador1.getPuntos()+2 && this.jugador2.getPuntos() >=4){
             return "Game for Player 2";
         }
-        return this.checkDeuce();
+        return this.checkAvarage();
     }
     resetScore(){
         this.jugador1 = new Jugador();

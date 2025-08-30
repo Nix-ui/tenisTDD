@@ -399,12 +399,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d1f9329b828f97da0982900cde4de89054830fdd",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-29T15:24:41.000Z",
       "message": "feat: Jugador 1 gana el partido",
-      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/d1f9329b828f97da0982900cde4de89054830fdd"
     },
     "stats": {
       "total": 7,
@@ -413,6 +413,25 @@
       "date": "2025-08-29"
     },
     "coverage": 85.71,
+    "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-30T01:59:28.000Z",
+      "message": "refactor: mejora del codigo en el showScore y multiples metodos de la clase TenisScorer",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
+      "date": "2025-08-30"
+    },
+    "coverage": 86.49,
     "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
