@@ -418,17 +418,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ea03d80787c877f965b67f5d9337f8b22b28eb71",
     "author": "Matheo Quiroga",
     "commit": {
       "date": "2025-08-30T01:59:28.000Z",
       "message": "refactor: mejora del codigo en el showScore y multiples metodos de la clase TenisScorer",
-      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/ea03d80787c877f965b67f5d9337f8b22b28eb71"
     },
     "stats": {
       "total": 14,
       "additions": 10,
       "deletions": 4,
+      "date": "2025-08-30"
+    },
+    "coverage": 86.49,
+    "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Matheo Quiroga",
+    "commit": {
+      "date": "2025-08-30T02:29:36.000Z",
+      "message": "feat: Agregado vista del funcionamiento del TennisScorer",
+      "url": "https://github.com/Nix-ui/tenisTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 53,
+      "additions": 36,
+      "deletions": 17,
       "date": "2025-08-30"
     },
     "coverage": 86.49,
